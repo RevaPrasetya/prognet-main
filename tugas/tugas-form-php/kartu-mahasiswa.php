@@ -88,7 +88,7 @@
                                 </p>
                             </p>
                         </div>
-                        <div class="d-flex justify-content-start rounded-3 p-2 mb-"
+                        <div class="d-flex justify-content-start rounded-3 p-2 mb-2"
                         style="background-color: #F6F7F9;">
                             <div>
                                 <p class="small text-muted  mb-1">Fakultas</p>
