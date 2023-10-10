@@ -11,7 +11,7 @@
 </head>
 <body>
     
-<div class="container">
+<div class="container" style="max-width: 500px">
     <main>
       <div class="py-5 text-center">
         <img class="d-block mx-auto mb-4" src="../../assets/icon/soft-star-red.svg" alt="" width="72" height="57">
@@ -52,27 +52,42 @@
                             <?php
                                 echo $first_name;
                             ?> 
-                            <span class="font-weight-bold">
+                            <span class="font-weight-italic">
                                 <?php
                                     echo $last_name;
                                 ?> 
                             </span>
                         </h5>
-                        <p class="mb-2 pb-1" style="color: #2b2a2a;">
-                            <?php
-                                echo $jenkel;
-                            ?> 
-                        </p>
-                        <p class="mb-2 pb-1" style="color: #2b2a2a;">
-                            <?php
-                                echo $nim;
-                            ?> 
-                        </p>
-                        <p class="mb-2 pb-1" style="color: #2b2a2a;">
-                            <?php
-                                echo $email;
-                            ?> 
-                        </p>
+                        <div>
+                            <p class="small text-muted mb-1">NIM</p>
+                            <p class="mb-0">
+                                <p class="mb-2 pb-1" style="color: #2b2a2a;">
+                                    <?php
+                                        echo $nim;
+                                    ?> 
+                                </p>
+                            </p>
+                        </div>
+                        <div>
+                            <p class="small text-muted mb-1">Jenis Kelamin</p>
+                            <p class="mb-0">
+                                <p class="mb-2 pb-1" style="color: #2b2a2a;">
+                                    <?php
+                                        echo $jenkel;
+                                    ?> 
+                                </p>
+                            </p>
+                        </div>
+                        <div>
+                            <p class="small text-muted mb-1">Email</p>
+                            <p class="mb-0">
+                                <p class="mb-2 pb-1" style="color: #2b2a2a;">
+                                    <?php
+                                        echo $email;
+                                    ?> 
+                                </p>
+                            </p>
+                        </div>
                         <div class="d-flex justify-content-start rounded-3 p-2 mb-2"
                         style="background-color: #efefef;">
                             <div>
@@ -96,11 +111,17 @@
                                 </p>
                             </div>
                         </div>
-                        <p class="mb-2 pb-1" style="color: #2b2a2a;">
-                            <?php
-                                echo $alamat;
-                            ?> 
-                        </p>
+                        
+                        <div>
+                            <p class="small text-muted mb-1">Alamat Tinggal</p>
+                            <p class="mb-0">
+                                <p class="mb-2 pb-1" style="color: #2b2a2a;">
+                                    <?php
+                                        echo $alamat;
+                                    ?> 
+                                </p>
+                            </p>
+                        </div>
                     </div>
                     </div>
                 </div>

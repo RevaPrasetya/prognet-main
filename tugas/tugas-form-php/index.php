@@ -58,15 +58,15 @@
     
               <div class="my-3">
                 <div class="form-check">
-                  <input id="laki_laki" name="jenis_kelamin" type="radio" class="form-check-input" checked required>
+                  <input id="laki_laki" name="jenis_kelamin" type="radio" class="form-check-input" value="Laki-laki" checked required>
                   <label class="form-check-label" for="laki_laki">Laki laki</label>
                 </div>
                 <div class="form-check">
-                  <input id="perempuan" name="jenis_kelamin" type="radio" class="form-check-input" required>
+                  <input id="perempuan" name="jenis_kelamin" type="radio" class="form-check-input" value="Perempuan" required>
                   <label class="form-check-label" for="perempuan">Perempuan</label>
                 </div>
                 <div class="form-check">
-                  <input id="rahasia" name="jenis_kelamin" type="radio" class="form-check-input" required>
+                  <input id="rahasia" name="jenis_kelamin" type="radio" class="form-check-input" value="Rahasia" required>
                   <label class="form-check-label" for="rahasia">Rahasia</label>
                 </div>
               </div>
