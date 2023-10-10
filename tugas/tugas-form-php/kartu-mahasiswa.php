@@ -48,7 +48,7 @@
                         }
                     ?>
                     <div class="flex-grow-1 ms-3">
-                        <h5 class="mb-2">
+                        <h3 class="mb-4">
                             <?php
                                 echo $first_name;
                             ?> 
@@ -57,11 +57,11 @@
                                     echo $last_name;
                                 ?> 
                             </span>
-                        </h5>
+                        </h3>
                         <div>
-                            <p class="small text-muted">NIM</p>
+                            <p class="small text-muted mb-1">NIM</p>
                             <p class="mb-0">
-                                <p class="mb-1 pb-1" style="color: #2b2a2a;">
+                                <p class="mb- pb-1" style="color: #2b2a2a;">
                                     <?php
                                         echo $nim;
                                     ?> 
@@ -69,9 +69,9 @@
                             </p>
                         </div>
                         <div>
-                            <p class="small text-muted">Jenis Kelamin</p>
+                            <p class="small text-muted mb-1">Jenis Kelamin</p>
                             <p class="mb-0">
-                                <p class="mb-1 pb-1" style="color: #2b2a2a;">
+                                <p class="mb- pb-1" style="color: #2b2a2a;">
                                     <?php
                                         echo $jenkel;
                                     ?> 
@@ -79,21 +79,21 @@
                             </p>
                         </div>
                         <div>
-                            <p class="small text-muted">Email</p>
+                            <p class="small text-muted mb-1">Email</p>
                             <p class="mb-0">
-                                <p class="mb-1 pb-1" style="color: #2b2a2a;">
+                                <p class="mb- pb-1" style="color: #2b2a2a;">
                                     <?php
                                         echo $email;
                                     ?> 
                                 </p>
                             </p>
                         </div>
-                        <div class="d-flex justify-content-start rounded-3 p-2 mb-1"
+                        <div class="d-flex justify-content-start rounded-3 p-2 mb-"
                         style="background-color: #F6F7F9;">
                             <div>
-                                <p class="small text-muted mb-1">Fakultas</p>
+                                <p class="small text-muted  mb-1">Fakultas</p>
                                 <p class="mb-0">
-                                    <p class="mb-1 pb-1" style="color: #2b2a2a;">
+                                    <p class="mb- pb-1" style="color: #2b2a2a;">
                                         <?php
                                             echo $fakultas;
                                         ?> 
@@ -103,7 +103,7 @@
                             <div class="px-3">
                                 <p class="small text-muted mb-1">Prodi</p>
                                 <p class="mb-0">
-                                    <p class="mb-1 pb-1" style="color: #2b2a2a;">
+                                    <p class="mb- pb-1" style="color: #2b2a2a;">
                                         <?php
                                             echo $prodi;
                                         ?> 
@@ -113,9 +113,9 @@
                         </div>
                         
                         <div>
-                            <p class="small text-muted ">Alamat Tinggal</p>
+                            <p class="small text-muted mb-1 ">Alamat Tinggal</p>
                             <p class="mb-0">
-                                <p class="mb-1 pb-1" style="color: #2b2a2a;">
+                                <p class="mb- pb-1" style="color: #2b2a2a;">
                                     <?php
                                         echo $alamat;
                                     ?> 
