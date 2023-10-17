@@ -130,7 +130,90 @@
         </div>
 
         <?php
-            }
+            };
+        ?>
+
+        
+        <?php
+            $query =  mysqli_query($koneksi, "SELECT * FROM tb_mahasiswa" );
+            while($row = mysqli_fetch_assoc($query)){
+                echo '
+                <div class="col-md-6 col-lg-6 col-sm-12">
+                    
+                    <div class="card" style="border-radius: 15px;">
+                        <div class="card-body p-4">
+                            <div class="d-flex text-black">
+                            <div class="flex-shrink-0">
+                                <img src="'.$row["link_gambar_profil"].'"
+                                alt="Generic placeholder image" class="img-fluid"
+                                style="width: 180px; border-radius: 10px;">
+                            </div>
+                            <div class="flex-grow-1 ms-3">
+                                <h3 class="mb-4">
+                                    '.$row["first_name"].'
+                                    <span class="font-weight-italic">
+                                        '.$row["last_name"].'
+                                    </span>
+                                </h3>
+                                <div>
+                                    <p class="small text-muted mb-1">NIM</p>
+                                    <p class="mb-0">
+                                        <p class="mb- pb-1" style="color: #2b2a2a;">
+                                            '.$row["nim"].' 
+                                        </p>
+                                    </p>
+                                </div>
+                                <div>
+                                    <p class="small text-muted mb-1">Jenis Kelamin</p>
+                                    <p class="mb-0">
+                                        <p class="mb- pb-1" style="color: #2b2a2a;">
+                                            '.$row["jenkel"].'
+                                        </p>
+                                    </p>
+                                </div>
+                                <div>
+                                    <p class="small text-muted mb-1">Email</p>
+                                    <p class="mb-0">
+                                        <p class="mb- pb-1" style="color: #2b2a2a;">
+                                            '.$row["email"].'
+                                        </p>
+                                    </p>
+                                </div>
+                                <div class="d-flex justify-content-start rounded-3 p-2 mb-2"
+                                style="background-color: #F6F7F9;">
+                                    <div>
+                                        <p class="small text-muted  mb-1">Fakultas</p>
+                                        <p class="mb-0">
+                                            <p class="mb- pb-1" style="color: #2b2a2a;">
+                                               '.$row["fakultas"].' 
+                                            </p>
+                                        </p>
+                                    </div>
+                                    <div class="px-3">
+                                        <p class="small text-muted mb-1">Prodi</p>
+                                        <p class="mb-0">
+                                            <p class="mb- pb-1" style="color: #2b2a2a;">
+                                                '.$row["prodi"].'
+                                            </p>
+                                        </p>
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <p class="small text-muted mb-1 ">Alamat Tinggal</p>
+                                    <p class="mb-0">
+                                        <p class="mb- pb-1" style="color: #2b2a2a;">
+                                            '.$row["alamat"].'
+                                        </p>
+                                    </p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>';
+            };
         ?>
 
 

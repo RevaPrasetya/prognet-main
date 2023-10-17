@@ -12,8 +12,10 @@
     $prodi = $_POST['prodi'];
     $gambar = $_POST['gambar_profil'];
 
-    $data = mysqli_query($koneksi, "INSERT INTO data_mahasiswa VALUES ('', '$nim',  
-     '$first_name', '$last_name', '$jenkel', '$email', '$alamat', '$fakultas', '$prodi','$gambar')");
+    // error_reporting(E_ALL);
+    // ini_set('display_errors', 1);
+
+    $data = mysqli_query($koneksi, "INSERT INTO data_mahasiswa VALUES ('', '$nim', '$first_name', '$last_name', '$jenkel', '$email', '$alamat', '$fakultas', '$prodi','$gambar')");
 
     
     if(!$data){
