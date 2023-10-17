@@ -26,7 +26,9 @@
   
       <div class="row g-5">
         <?php
-            $query =  mysqli_query($koneksi, "SELECT * FROM tb_mahasiswa" );
+            $query =  mysqli_query($koneksi, "SELECT * FROM data_mahasiswa" );
+
+            //echo $query;
             while($row = mysqli_fetch_assoc($query)){
         ?>
 
