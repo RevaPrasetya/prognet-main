@@ -1,5 +1,5 @@
 <?php
-    // require("koneksi.php");
+    require("koneksi.php");
 
     
     // $nim = $_POST['nim'];
@@ -17,7 +17,7 @@
 
     
     // if(!$data){
-    //     echo mysqli_error($koneksi);
+    echo mysqli_error($koneksi);
     header("location: kartu-mahasiswa.php?pesan=gagal");
     // }else{
     //     header("location: kartu-mahasiswa.php?pesan=sukses");
