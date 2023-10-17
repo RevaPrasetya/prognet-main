@@ -22,7 +22,7 @@
   
       <div class="row g-5">
         <div class="col-md-12 col-lg-12">
-          <form class="needs-validation" action="kartu-mahasiswa.php" method="POST" novalidate>
+          <form class="needs-validation" action="aksi.php" method="POST" novalidate>
             <div class="row g-3">
                 <div class="col-6">
                   <label for="gambar_profil" class="form-label">Link Gambar Profil</label>
