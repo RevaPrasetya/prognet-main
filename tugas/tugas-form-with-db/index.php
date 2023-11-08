@@ -11,7 +11,7 @@
 </head>
 <body>
     
-<div class="container">
+  <div class="container">
     <main>
       <div class="py-5 text-center">
         <img class="d-block mx-auto mb-4" src="../../assets/icon/soft-star-red.svg" alt="" width="72" height="57">
@@ -236,7 +236,7 @@
       //Menambahkan kelas "is-invalid" apabila terjadi error pada input
       inputElement.classList.add("is-invalid");
     }
-  });
+    });
 
   </script>
 </body>

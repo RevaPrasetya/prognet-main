@@ -15,7 +15,8 @@
     // error_reporting(E_ALL);
     // ini_set('display_errors', 1);
 
-    $data = mysqli_query($koneksi, "INSERT INTO data_mahasiswa VALUES ('', '$nim', '$first_name', '$last_name', '$jenkel', '$email', '$alamat', '$fakultas', '$prodi','$gambar')");
+    $data = mysqli_query($koneksi, "INSERT INTO data_mahasiswa VALUES ('', '$nim', 
+    '$first_name', '$last_name', '$jenkel', '$email', '$alamat', '$fakultas', '$prodi','$gambar')");
 
     
     if(!$data){
